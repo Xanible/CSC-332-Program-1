@@ -1,6 +1,7 @@
 #include <iostream>
 #include <time.h>
 
+
 void randomizeArray(int array[], int length)
 {
 	srand((unsigned)time(NULL));			// Seed random number generator. 
@@ -14,13 +15,16 @@ void randomizeArray(int array[], int length)
 }
 
 int main(int argc, char** argv) {
+	// Initialize the array
+	int pairs[100][2] = {};
+	
 	clock_t startTime, endTime;
 	// Randomize values in array.
 	randomizeArray(array, length);
 
 	// Time array sort.
 	startTime = clock();			// Get starting time.
-	selectionSort(array, length);	// Sort array.
-	endTime = clock();				// Get ending time.
+	selectionSort(array, length);		// Sort array.
+	endTime = clock();			// Get ending time.
 	return 0;
 }
