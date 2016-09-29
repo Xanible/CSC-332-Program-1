@@ -1,0 +1,1 @@
+Out of 100 pairs of integers, the improved(?) Euclid's algorithm outperformed the original one in 47 pairs; and the average saved/wasted time for one pair of integers was 0.0103234 milliseconds.
