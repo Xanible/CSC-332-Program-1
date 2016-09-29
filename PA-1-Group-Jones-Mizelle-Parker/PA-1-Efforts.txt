@@ -1,0 +1,10 @@
+The work was divided roughly as follows:
+
+// Matthew
+Matthew worked on the that involved finding the statistics for the time taken as well as getting the final conclusions. He also gave advice on other code.
+
+// Justin
+Justin provided the code to time the function as well as to fill the array with random values. He also gave advice on other code.
+
+// Colby
+Colby coded the algorithms and main function as well as helped with other code. He also translated the .txt files into the required .xlsx files.
